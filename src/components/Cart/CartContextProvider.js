@@ -9,7 +9,7 @@ export default function CartContextProvider({ children }) {
     // setCart([...cart],product)                  //no error message
   };
   const values = {
-    addToCart,
+    addToCart, cart
   };
   return <CartContext.Provider value={values}>{children}</CartContext.Provider>;
 }
